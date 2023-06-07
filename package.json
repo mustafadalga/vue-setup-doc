@@ -1,0 +1,28 @@
+{
+  "name": "vue-setup-doc",
+  "version": "1.0.1",
+  "description": "A script to generate documentation for Vue.js and TypeScript projects, with support for <script setup> syntax in Vue.js",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "vue-setup-doc": "./index.js"
+  },
+  "keywords": [
+    "documentation",
+    "vue.js",
+    "typescript",
+    "script setup",
+    "documentation.js",
+    "tsdoc",
+    "doc generate",
+    "doc generator"
+  ],
+  "author": "Mustafa Dalga",
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "rimraf": "^5.0.1"
+  }
+}
