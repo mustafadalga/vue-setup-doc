@@ -1,6 +1,8 @@
 # vue setup doc
 
-`vue-setup-doc` is a command-line tool that generates documentation for Vue.js and TypeScript projects. It handles Vue.js's `<script setup>` syntax, which is not supported by documentation.js.
+`vue-setup-doc` is a command-line utility designed to generate documentation for Vue.js and TypeScript projects. It introduces support for Vue.js's `<script setup>` syntax, filling a gap left by documentation.js.
+
+
 
 <p align="center">
 
