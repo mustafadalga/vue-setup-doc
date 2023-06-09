@@ -34,7 +34,7 @@ This will add vue-setup-doc to the devDependencies in your project's package.jso
 To use vue-setup-doc, you need to specify an input file and an output file. The command format is as follows:
 
 ```sh
-vue-setup-doc -i [input file] -o [output file]
+npx vue-setup-doc -i [input file] -o [output file]
 ```
 
 Replace [input file] with the path to the file you want to generate documentation for, and [output file] with the path where you want to save the generated documentation.
@@ -45,9 +45,9 @@ If the input file is a Vue component, vue-setup-doc will remove the setup attrib
 You can view the help information by running the following command:
 
 ```sh
-vue-setup-doc -h
+npx vue-setup-doc -h
 ```
 or
 ```sh
-vue-setup-doc -help
+npx vue-setup-doc -help
 ```
